@@ -11,7 +11,7 @@
  *
  * Authors: Per Sandström (Updated to support jPlayer 2.1.0 by Kasim Ahmic)
  * Skin Version: 2.0 (jPlayer 2.1.0)
- * Date: April 25th 2012
+ * Date: April 27th 2012
  */
  
 *:active, *:focus {
@@ -30,12 +30,14 @@ div.jp-video {
 	font-family:Verdana, Arial, sans-serif;
 	line-height:1.6;
 	color: #666;
-	border-radius: 8px;
-	background: none;
+	border: 1px solid #DDD;
+	border-radius: 0 0 8px 8px !important;
+	background: transparent;
 	position:relative;
 }
 div.jp-audio {
 	width:480px;
+	border-radius: 8px !important;
 }
 div.jp-video-270p {
 	width:480px;
@@ -77,15 +79,18 @@ div.jp-video-full div.jp-interface {
 }
 
 div.jp-gui {
-	border: 1px solid #BBB;
+	width: 100%;
+}
+
+div.jp-gui div.jp-interface {
+	border: none !important;
 }
 
 div.jp-interface {
+	width: 100%;
 	position: relative;
-	border: 1px solid #BBB;
-	border-radius: 8px 8px 0 0;
-	background: #BBB url(interface.png) repeat-x;
-	width:478px;
+	border-radius: 6px 6px 0 0 !important;
+	background: url(interface.png) repeat-x;
 }
 
 div.jp-audio div.jp-type-single div.jp-interface {
@@ -402,18 +407,21 @@ div.jp-video div.jp-duration {
 div.jp-title {
 	font-weight:bold;
 	text-align:center;
-	color: #FFF;
-	text-shadow: 0 1px 0px rgba(0,0,0,0.3);
+	color: #666;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .8);
+}
+
+div.jp-video div.jp-title {
+	border: none !important;
 }
 
 div.jp-title,
 div.jp-playlist {
-	width:478px;
 	background: url(./playlist_bg.png);
 	border-top: none !important;
-	border: 1px solid #DDD !important;
-	border-radius: 0 0 10px 10px !important;
+	border-radius: 0 0 6px 6px !important;
 	text-align: left !important;
+	width: 100%;
 }
 div.jp-type-single div.jp-title,
 div.jp-type-playlist div.jp-title,
@@ -448,7 +456,7 @@ div.jp-playlist li div {
 div.jp-type-playlist div.jp-playlist li:last-child {
 	padding:5px 0 5px 15px;
 	border-bottom: none !important;
-	border-radius: 0 0 8px 8px !important;
+	border-radius: 0 0 6px 6px !important;
 }
 div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
 	list-style-type:none;
