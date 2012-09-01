@@ -3,3 +3,9 @@ Morning Light - A jPlayer Skin
 Quite a while ago, I found this great jPlayer skin on GitHub. It was nice, simple, and great looking! But what I soon found out was that it was only for jPlayer 2.0.0. That got me thinking, "Hey! Why don't I update it?!". And I did just that!
 
 The orginal theme for jPlayer 2.0.0 can be found here - https://github.com/persand/jPlayer-skins
+
+Also Check Out Midnight Black!
+=========
+If you want a darker jPlayer skin, go check out Midnight Black!
+
+http://theinfection.github.com/Midnight-Black/
