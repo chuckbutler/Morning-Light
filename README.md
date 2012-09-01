@@ -6,6 +6,4 @@ The orginal theme for jPlayer 2.0.0 can be found here - https://github.com/persa
 
 Also Check Out Midnight Black!
 =========
-If you want a darker jPlayer skin, go check out Midnight Black!
-
-http://theinfection.github.com/Midnight-Black/
+If you want a darker jPlayer skin, go check out Midnight Black! - http://theinfection.github.com/Midnight-Black/
