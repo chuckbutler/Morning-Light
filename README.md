@@ -7,8 +7,8 @@ It actually ended up looking pretty good :D
 Licensing
 =========
 This is skin is dual licensed under the MIT and GPL licenses.
-*http://www.opensource.org/licenses/mit-license.php
-*http://www.gnu.org/copyleft/gpl.html
+* http://www.opensource.org/licenses/mit-license.php
+* http://www.gnu.org/copyleft/gpl.html
 
 Authors and Contributors
 =========
