@@ -1,4 +1,4 @@
-Midnight Black
+Morning Light
 =========
 Quite a while ago, I found this great jPlayer skin on GitHub. It was nice, simple, and great looking! But what I soon found out was that it was only for jPlayer 2.0.0. That got me thinking, "Hey! Why don't I update it?!". And I did just that!
 
@@ -7,6 +7,7 @@ It actually ended up looking pretty good :D
 Licensing
 =========
 This is skin is dual licensed under the MIT and GPL licenses.
+
 http://www.opensource.org/licenses/mit-license.php
 http://www.gnu.org/copyleft/gpl.html
 
