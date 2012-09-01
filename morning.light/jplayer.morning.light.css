@@ -89,15 +89,16 @@ div.jp-gui div.jp-interface {
 div.jp-interface {
 	width: 100%;
 	position: relative;
-	border-radius: 6px 6px 0 0 !important;
 	background: url(interface.png) repeat-x;
 }
 
 div.jp-audio div.jp-type-single div.jp-interface {
 	height:75px;
+	border-radius: 6px 6px 0 0 !important;
 }
 div.jp-audio div.jp-type-playlist div.jp-interface {
 	height:70px;
+	border-radius: 6px 6px 0 0 !important;
 }
 
 div.jp-video div.jp-interface {
@@ -246,7 +247,7 @@ div.jp-video div.jp-play-bar {
 
 /* The seeking class is added/removed inside jPlayer */
 div.jp-seeking-bg {
-	background: url("jplayer.light.seeking.gif");
+	background: url("jplayer.light.pbar-ani.gif");
 }
 
 /* @end */
@@ -454,7 +455,7 @@ div.jp-playlist li div {
 /* Note that the first-child (IE6) and last-child (IE6/7/8) selectors do not work on IE */
 
 div.jp-type-playlist div.jp-playlist li:last-child {
-	padding:5px 0 5px 15px;
+	padding:5px 15px 5px 15px;
 	border-bottom: none !important;
 	border-radius: 0 0 6px 6px !important;
 }
@@ -574,7 +575,10 @@ ul.jp-toggles {
 
 div.jp-audio .jp-type-single ul.jp-toggles {
 	width:28px;
-	margin-top: -4px;
+	margin: 0 0 0 -14px;
+	position: absolute;
+	left: 50%;
+	top: -5px;
 }
 div.jp-audio .jp-type-playlist ul.jp-toggles {
 	width:65px;
