@@ -4,6 +4,10 @@ Quite a while ago, I found this great jPlayer skin on GitHub. It was nice, simpl
 
 It actually ended up looking pretty good :D
 
+Compatibility
+=========
+Morning Light will support any jPlayer version from 2.1.0 all the way to the current developmental build. I recommend you keep up to date on your jPlayer installation. Morning Light also uses some CSS3 features such as *border-radius*, *text-shadow*, and *box-shadow* (specifically *box-shdaow: inset*) so it won't show up in IE8 or lower. If you want, you can use [CSS3PIE](http://css3pie.com/) to enable *border-radius* in IE8 and lower but *text-shadow* and *box-shadow: inset* are still a WIP. I'll add support for CSS3PIE as soon as they add more functionality to it.
+
 Licensing
 =========
 This is skin is dual licensed under the MIT and GPL licenses.
